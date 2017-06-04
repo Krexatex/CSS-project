@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<hmtl>
+  <head>
+    <link rel="stylesheet" type="text/css" href="project.css">
+    <title>This is the first project for note taking</title>
+  </head>
+
+  <body class="app">
+
+    <div class="header">
+      <img class="img1" src="images/logo.png" alt="Broken Logo :("/>
+      <img class="img2" src="images/logo.png" alt="Broken Logo :("/>
+      <h1>Intro to HTML and CSS</h1>
+    </div>
+
+    <ul class="menu">
+      <li><a href="home.html">Home</a></li>
+      <li><a href="html-notes.html">HTML Basics</a></li>
+      <li><a href="css-notes.html">CSS Basics</a></li>
+    </ul>
+
+    <h2 class="sub-title">HTML BASICS</h2>
+    <div>
+      <h3 class="topic">Tags</h3>
+      <p>Tags are the most basic component of HTML. There are opening and closing tags. <br>
+       Examples: <br>
+        <ul>
+          <li>the b tag "&ltb&gt content &lt/b&gt". used to make the content bold. </li> <!-- I had to google how to do this :) -->
+          <li>the em tag " &ltem&gt content &lt/em&gt " to italicize a content.</li>
+        </ul>
+      </p>
+    </div>
+
+    <div class="elements">
+      <h3 class="topic">Elements</h3>
+      <p>
+      Elements = opening tag + content + closing tag.
+      </p>
+    </div>
+
+    <div class="attributes">
+      <h3 class="topic">HTML attributes</h3>
+      <p>
+          Some tags take additional information in the form of attributes that have values. <br>
+          Examples:
+          <ul>
+            <li>The anchor tag <b/> "&lta&gt content &lt/a&gt"</b> used to add links takes the attribe "href" with value the web adress of a site.
+            <span>"&lta href="http://www.udacity.com"&gt <em>This is the syntax of a link to Udacity.com</em> &lt/a&gt"</span> <br>
+            It should be displayed this way: <a href="http://www.udacity.com"> <em>This is the syntax of a link to Udacity.com</em></a> <br>
+            </li>
+            <li>The image "img" tag also takes attributes such as "src" which is the location of the image and "alt" for if the link is broken. It is required <br>
+            <span>"&ltimg src="https://s3-us-west-1.amazonaws.com/udacity-content/images/icon-error.svg" alt="Broken Image?"&gt <em><!--This is the syntax of a link to a Udacity.com image--></em> &lt/a&gt"</span> <br>
+            Should be displayed this way: <img src="https://s3-us-west-1.amazonaws.com/udacity-content/images/icon-error.svg" alt="Broken Image?" >
+            </li>
+          </ul>
+      </p>
+    </div>
+
+    <div class="whitespaces">
+      <h3 class="topic">Whitespaces</h3>
+      <ul>
+        <li>&ltbr&gt is used to break a line.
+        It is also used <b>"inline"</b> and called a <b>"void tag"</b> because it does not have a closing tag. Another example of void tag is &ltimg&gt. <br>
+        </li>
+        <li>&ltp&gt content &lt/p&gt is used for blocks </li>
+      </ul>
+    </div>
+
+    <div class="span">
+      <h3 class="topic">Span & Div</h3>
+      <ul>
+        <li>&ltspan&gt content &lt/span&gt: Inline </li>
+        <li>&ltdiv&gt content &lt/div&gt: Blocks </li>
+      </ul>
+    </div>
+
+  </body>
+</html>
